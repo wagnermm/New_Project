@@ -32,7 +32,7 @@ main {
 }
 
 .redes-sociais ul li {
-    margin-left: 15px;
+    margin-left: 23px;
     display: inline-block;
 }
 
@@ -53,7 +53,16 @@ main {
     margin-left: 15px;
 }
 
-.menu ul li a{
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+    height: 50px;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
+}
+
+.menu ul li a {
     color: #8b8b8b;
     text-decoration: none;
     font-size: 18px;
